@@ -1,0 +1,26 @@
+{
+  "name": "aws-xray-testexpress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lukas-ateam/aws-xray-testExpress.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lukas-ateam/aws-xray-testExpress/issues"
+  },
+  "homepage": "https://github.com/Lukas-ateam/aws-xray-testExpress#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1012.0",
+    "aws-xray-sdk": "^3.3.3",
+    "express": "^4.17.1"
+  }
+}

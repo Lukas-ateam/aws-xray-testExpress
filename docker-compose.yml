@@ -1,0 +1,14 @@
+version: "3.7"
+
+services:
+  aws-xray-daemon:
+    image: amazon/aws-xray-daemon
+    container_name: aws-xray-daemon
+    hostname: aws-xray-daemon
+    ports:
+      - 2000:2000/tcp
+      - 2000:2000/udp
+    environment:
+      - AWS_REGION=ap-northeast-2
+    restart: always
+    entrypoint: ['./xray', '-o']
